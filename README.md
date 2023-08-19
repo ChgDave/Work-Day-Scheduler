@@ -1,10 +1,10 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This project is week five challenge of the NW full-stack coding bootcamp. We are required to build a simple work day calendar application that allows allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+[Day.js](https://day.js.org/en/) library is used to work with date and time.
 
 ## User Story
 
@@ -35,65 +35,29 @@ THEN the saved events persist
 The following animation demonstrates the application functionality:
 
 <!-- @TODO: create ticket to review/update image) -->
+
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
-## Grading Requirements
+## Usage
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+```
+- When first open the web page, you are shown with a work calendar for today from 9am to 5pm
+- Under the header, the date of the day should be displayed
+- If the hour is past the current hour, then the timeblock is displayed in grey
+- If the hour is the same as the current hour, then the timeblock is displayed in red
+- If the hour is in the future of the current hour, then the timeblock is displayed in green
+- Each timeblock has a text area where you can type in the event that you need to do in the Calendar.
+- Each timeblock has a save button where you can save your shceduled events in local storage that will persist.
 
-This Challenge is graded based on the following criteria:
+## Github Repo Link
 
-### Technical Acceptance Criteria: 40%
+The link for the github repository for this project is:
+https://github.com/ChgDave/Work-Day-Scheduler
 
-* Satisfies all of the above acceptance criteria plus the following:
+## URL Deployment Link
 
-  * Uses a date utility library to work with date and time
+The link for the deployed website for this project is:
+https://chgdave.github.io/Work-Day-Scheduler/
 
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+```
